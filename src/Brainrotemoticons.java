@@ -26,9 +26,12 @@ public class Brainrotemoticons {
             System.out.println("\uD83D\uDC45");
         else if (type.equals("sus") || type.equals("sussy") || type.equals("amongus") || type.equals("troll"))
             System.out.println("\uD83E\uDDCC");
-        else if (type.equals(""))
+        else if (type.equals("sigma"))
+            System.out.println("\uD83D\uDDFF");
+        else if (type.equals("alpha"))
+            System.out.println("\uD83D\uDDFF");
         else
-            System.out.println("Listed brainrot not found :( try another!"):
+            System.out.println("Listed brainrot not found :( try another!");
 
         System.out.println("Would you like another?");
         String value = input.nextLine();
